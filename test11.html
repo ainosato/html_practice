@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script>
+        // function prt() {
+        //     document.write("이름 : " + this.name + "<p />");
+        //     document.write("나이 : " + this.age + "<p />");
+        // }
+        // function student(name, age) {
+        //     this.name = name;
+        //     this.age = age;
+        //     this.st_method = prt;
+
+        // }
+        // student1 = new student("진달래", 19);
+        // student1.st_method();
+        var student1 = {
+            name : "진달래",
+            age : 19,
+            st_method : function() {
+                document.write("이름 : " + this.name + "<p />");
+                document.write("나이 : " + this.age + "<p />");
+            }
+        };
+        student1.st_method();
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

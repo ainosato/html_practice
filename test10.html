@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script type="text/javascript">
+        var num = 1;
+        var t = "<table border = '1'>";
+        for(var i = 0; i < 5; i++) {
+            t+="<td>";
+            for(var j = 0; j < 5; j++) {
+                t+="<td>"+num+"</td>";
+                num++;
+            }
+            t+='</tr>';
+        }
+        t+="</table>";
+        console.log(t);
+        document.write(t);
+    </script>
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>

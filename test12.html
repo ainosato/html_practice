@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        function display_stu() {
+            document.write("이름 : " + this.name + "<br />");
+            document.write("나이 : " + this.age + "<br />");
+            
+
+        }
+        function student(name, age) {
+            this.name = prompt("이름 입력");
+            this.age = prompt("나이 입력");
+            this.display_stu = display_stu;
+        }
+        student3 = new student();
+        student3.display_stu();
+    </script>
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>

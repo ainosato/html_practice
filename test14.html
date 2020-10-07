@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <script>
+        var t = new Date();
+        var newYear = t.getFullYear();
+        var theDate = new Date(newYear,11,31);
+        var diffDate = theDate - t;
+        var result = Math.ceil(diffDate/(1000*60*60*24));
+        document.write("현재 일로부터 올해 말일까지는 " +result+"일 남았습니다");
+    
+
+    </script>
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
